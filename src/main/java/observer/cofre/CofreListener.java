@@ -4,5 +4,6 @@ public interface CofreListener {
 	
 	void cofreFoiAberto();
 	void cofreFoiFechado();
+	void senhaIncorreta();
 
 }

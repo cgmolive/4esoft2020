@@ -21,5 +21,5 @@ public class AppCofre {
 		System.out.println("Fim.");
 		
 	}
-
+	//Professor, devido a aquele erro que conversei com o sr. mais cedo, estou sem o Astah e não consegui fazer o diagrama.
 }

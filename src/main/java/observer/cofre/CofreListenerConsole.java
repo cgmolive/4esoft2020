@@ -14,4 +14,8 @@ public class CofreListenerConsole implements CofreListener {
 		System.out.println("O cofre foi fechado: " + new Date().toLocaleString());		
 	}
 
+	@Override
+	public void senhaIncorreta() {
+		System.out.println("Senha incorreta!");
+	}
 }

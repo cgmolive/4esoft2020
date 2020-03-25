@@ -29,7 +29,10 @@ public class Cofre {
 		if (senhaInformada == this.senha) {
 			this.aberto = true;
 			this.listeners.forEach(l -> l.cofreFoiAberto());
-		}		
+		}
+		else {
+			this.listeners.forEach(l -> l.senhaIncorreta());
+		}
 	}
 
 	public void addListener(CofreListenerConsole listener) {
